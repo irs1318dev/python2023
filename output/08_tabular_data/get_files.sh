@@ -20,6 +20,9 @@ cd images
 images_url="${base_url}/images"
 wget -nv $images_url/600px-Teletype-IMG_7287.jpg
 wget -nv $images_url/asr33_2.jpg
+cd ..
+mkdir setup
+cd setup
 setup_url="${base_url}/setup"
 wget -nv $setup_url/matches.json
 cd ..
