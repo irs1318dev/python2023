@@ -14,6 +14,4 @@ base_url="${base_url}/output/09_visualization_matplotlib"
 wget -nv $base_url/housing.csv
 wget -nv $base_url/recent-grads.csv
 wget -nv $base_url/matches.pickle
-wget -nv $base_url/interactive_matplotlib_jupyter.ipynb
-wget -nv $base_url/interactive_matplotlib_qt.ipynb
 echo File Downloads Complete!
