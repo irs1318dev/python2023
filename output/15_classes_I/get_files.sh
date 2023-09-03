@@ -11,7 +11,6 @@ base_url="https://raw.githubusercontent.com/irs1318dev/python2023/main"
 base_url="${base_url}/output/15_classes_I"
 
 # wget is a Linux command line program that downloads a file from a URL
-wget -nv $base_url/die.py
 wget -nv $base_url/tenthousand_game_analysis.pdf
 wget -nv $base_url/__init__.py
 mkdir tenthou
