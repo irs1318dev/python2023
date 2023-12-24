@@ -8,7 +8,7 @@
 
 # Create a variable with a URL to the session 9 folder in the Github repo
 base_url="https://raw.githubusercontent.com/irs1318dev/python2023/main"
-base_url="${base_url}/output/09_visualization_matplotlib"
+base_url="${base_url}/output/09_visualization"
 
 # wget is a Linux command line program that downloads a file from a URL
 wget -nv $base_url/housing.csv
