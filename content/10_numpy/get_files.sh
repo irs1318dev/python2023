@@ -8,9 +8,26 @@
 
 # Create a variable with a URL to the session 9 folder in the Github repo
 base_url="https://raw.githubusercontent.com/irs1318dev/python2023/main"
-base_url="${base_url}/output/10_visualization_bokeh"
+base_url="${base_url}/output/10_numpy"
 
+mkdir images
+cd images
+images_url="${base_url}/images"
 # wget is a Linux command line program that downloads a file from a URL
-wget -nv $base_url/housing.csv
-wget -nv $base_url/vif.pickle
+wget -nv $images_url/array.png
+wget -nv $images_url/memory.png
+wget -nv $images_url/urban-area.png
+cd ..
+mkdir mnist
+cd mnist
+wget -nv $base_url/mnist/digits.csv
+cd ..
+mkdir rad
+cd rad
+rad_url="${base_url}/rad"
+wget -nv $rad_url/run-data.csv
+wget -nv $rad_url/sources.csv
+wget -nv $rad_url/spectra.npz
+wget -nv $rad_url/spectrum-100367.npy
+wget -nv $rad_url/spectrum-107702.npy
 echo File Downloads Complete!
